@@ -16,8 +16,8 @@ class RatingServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('rating', __DIR__.'/../dist/js/rating.js');
-            //Nova::style('rating', __DIR__.'/../dist/css/rating.css');
+            Nova::script('rating', __DIR__.'/../dist/js/field.js');
+            Nova::style('rating', __DIR__.'/../dist/css/field.css');
         });
     }
 }

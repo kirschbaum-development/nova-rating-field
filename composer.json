@@ -9,6 +9,21 @@
     ],
     "homepage": "https://github.com/nikaia/nova-rating-field",
     "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "require-dev": {
+        "laravel/nova": "^4.2",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "^7.4",
+        "phpunit/phpunit": "^9.5.10"
+    },
     "authors": [
         {
             "name": "Nassif Bourguig",
@@ -16,9 +31,7 @@
             "role": "Developer"
         }
     ],
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.11"
-    },
+
     "autoload": {
         "psr-4": {
             "Nikaia\\Rating\\": "src/"

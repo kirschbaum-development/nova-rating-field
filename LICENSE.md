@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Nassif Bourguig <nbourguig@gmail.com>
+Copyright (c) Kirschbaum Development Group, LLC <hello@kirschbaumdevelopment.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

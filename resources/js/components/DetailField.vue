@@ -1,6 +1,6 @@
 <template>
-    <panel-item :field="field">
-        <template slot="value">
+    <PanelItem :index="index" :field="field">
+        <template #value>
             <star-rating
                     :read-only="true"
 
@@ -24,7 +24,7 @@
                     :text-class="field['text-class']"
             />
         </template>
-    </panel-item>
+    </PanelItem>
 </template>
 
 <script>

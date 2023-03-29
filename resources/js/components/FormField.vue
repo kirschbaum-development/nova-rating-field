@@ -1,6 +1,6 @@
 <template>
-    <default-field :field="field">
-        <template slot="field">
+    <DefaultField :field="field">
+        <template #value>
             <star-rating
                     :read-only="false"
                     @rating-selected="setRating"
@@ -29,7 +29,7 @@
                 {{ firstError }}
             </p>
         </template>
-    </default-field>
+    </DefaultField>
 </template>
 
 <script>
